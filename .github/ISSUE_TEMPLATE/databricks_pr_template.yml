@@ -2,7 +2,7 @@ name: Databricks Template
 description: Databricks Template
 title: "[Databricks]: "
 labels: [Databricks]
-assignees:
+assignees: []
 body:
 - type: textarea
   attributes:
