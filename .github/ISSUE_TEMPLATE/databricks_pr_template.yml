@@ -2,7 +2,7 @@ name: Databricks Template
 description: Databricks Template
 title: "[Databricks]: "
 assignees: [heeroyuy925]
-labels: [bug]
+labels: [Databricks]
 body:
   - type: textarea
     id: what-pr-do
