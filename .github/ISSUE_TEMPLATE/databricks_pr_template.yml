@@ -1,7 +1,6 @@
 name: Databricks Template
 description: Databricks Template
 title: "[Databricks]: "
-labels: [Databricks]
 assignees: []
 body:
   - type: textarea
@@ -19,52 +18,22 @@ body:
     validations:
       required: true
   - type: checkboxes
-    id: interactive_cluster
+    id: databricks_resources
     attributes:
       description: Interactive Cluster
       options:
         - label: Interactive Cluster
           required: false
-  - type: checkboxes
-    id: scim
-    attributes:
-      description: Group, User & Service Principal
-      options:
         - label: Group, User & Service Principal
           required: false
-  - type: checkboxes
-    id: instance_pool
-    attributes:
-      description: Instance Pool
-      options:
         - label: Instance Pool
           required: false
-  - type: checkboxes
-    id: cluster_policy
-    attributes:
-      description: Cluster Policy
-      options:
         - label: Cluster Policy
           required: false
-  - type: checkboxes
-    id: secrets
-    attributes:
-      description: Secret Scope & Secret
-      options:
         - label: Secret Scope & Secret
           required: false
-  - type: checkboxes
-    id: job
-    attributes:
-      description: Job
-      options:
         - label: Job
           required: false
-  - type: checkboxes
-    id: pat
-    attributes:
-      description: Personal Access Token
-      options:
         - label: Personal Access Token
           required: false
   - type: textarea
