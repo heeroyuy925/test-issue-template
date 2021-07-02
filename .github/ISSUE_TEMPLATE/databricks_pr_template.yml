@@ -25,18 +25,54 @@ body:
       required: true
   - type: checkboxes
     attributes:
-      label: Databricks resources provisiond by this PR
-      description: You may select more than one applicable resources in this PR.
+      label: Interactive Cluster
+      description: Interactive Cluster
       options:
         - label: Interactive Cluster
+          required: false
+  - type: checkboxes
+    attributes:
+      label: Group, User & Service Principal
+      description: Group, User & Service Principal
+      options:
         - label: Group, User & Service Principal
+          required: false
+  - type: checkboxes
+    attributes:
+      label: Instance Pool
+      description: Instance Pool
+      options:
         - label: Instance Pool
+          required: false
+  - type: checkboxes
+    attributes:
+      label: Cluster Policy
+      description: Cluster Policy
+      options:
         - label: Cluster Policy
+          required: false
+  - type: checkboxes
+    attributes:
+      label: Secret Scope & Secret
+      description: Secret Scope & Secret
+      options:
         - label: Secret Scope & Secret
+          required: false
+  - type: checkboxes
+    attributes:
+      label: Job
+      description: Job
+      options:
         - label: Job
+          required: false
+  - type: checkboxes
+    attributes:
+      label: Personal Access Token
+      description: Personal Access Token
+      options:
         - label: Personal Access Token
+          required: false
   - type: textarea
-    render: markdown
     attributes:
       label: Reference Documentation
       description: You can refer the following documentations for provision resource.
@@ -45,5 +81,6 @@ body:
         * [Databricks Personal Access Token](https://farfetch.atlassian.net/wiki/spaces/DataStrategy/pages/1626249646/Creating+Databricks+token+in+terraform)
         * [Getting Access to Databricks Workspace for Group & User](https://farfetch.atlassian.net/wiki/spaces/DataStrategy/pages/3223131425/Getting+Access+to+Databricks+Workspace)
         * [Create Service Principal](https://farfetch.atlassian.net/wiki/spaces/DataStrategy/pages/1620704192/Create+Service+Principal+Terraform)
+      render: markdown
     validations:
       required: false
