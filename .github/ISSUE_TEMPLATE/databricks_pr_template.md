@@ -29,7 +29,7 @@ Place an '[x]' (no spaces) in all check list you have done
   * [ ] Run `terraform fmt` before the PR raised
   * [ ] Keep `provider.tf` and `versions.tf` are follow the same content defined in `terragrunt.hcl`
   * [ ] Do not raise multiple change in different root folder. If so, please split PR into multiple PRs for different root folder.
-  * [ ] Set the right reviewers
+  * [ ] Set the right reviewers in PR
 
 ## Reference Documentation
 
