@@ -1,8 +1,8 @@
 name: Databricks Template
 description: Databricks Template
 title: "[Databricks]: "
-assignees: []
-labels: [databricks]
+assignees: [heeroyuy925]
+labels: [bug]
 body:
   - type: textarea
     id: what-pr-do
@@ -40,6 +40,7 @@ body:
   - type: markdown
     attributes:
       value: |
+        ## Reference Page 
         * [Databricks Onboarding Documentation for Provisioning Resources](https://farfetch.atlassian.net/wiki/spaces/DataStrategy/pages/3351183454/Onboarding+Guide+to+Databricks+Workspace)
         * [Databricks Personal Access Token](https://farfetch.atlassian.net/wiki/spaces/DataStrategy/pages/1626249646/Creating+Databricks+token+in+terraform)
         * [Getting Access to Databricks Workspace for Group & User](https://farfetch.atlassian.net/wiki/spaces/DataStrategy/pages/3223131425/Getting+Access+to+Databricks+Workspace)
