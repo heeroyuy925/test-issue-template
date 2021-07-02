@@ -12,12 +12,7 @@ body:
     validations:
       required: true
   - type: textarea
-    attributes:
-      label: What is the reasoning behind it?
-      description: Please put the purpose here why you raise this PR
-    validations:
-      required: true
-  - type: textarea
+    id: why-pr
     attributes:
       label: What is the reasoning behind it?
       description: Please put the purpose here why you raise this PR
