@@ -4,11 +4,9 @@ about: Databricks Resource Issue Template
 title: '[Databricks] <title>'
 labels: Databricks
 assignees: heeroyuy925
-linked_pull_requests: #5
 ---
 
-<!-- Please notice that this Template is only to be used when changes are done to Databricks resources.
--->
+<!-- Please notice that this Template is only to be used when changes are done to Databricks resources.-->
 
 ## Description:
   * What does this Pull Request do?
@@ -25,8 +23,13 @@ Place an '[x]' (no spaces) in all applicable resources
   * [ ] Job
   * [ ] Personal Access Token
 
-## Requesting Team:
-  * @please_fill_here_the_requester_team
+## Check Lists
+Place an '[x]' (no spaces) in all check list you have done
+
+  * [ ] Run `terraform fmt` before the PR raised
+  * [ ] Keep `provider.tf` and `versions.tf` are follow the same content defined in `terragrunt.hcl`
+  * [ ] Do not raise multiple change in different root folder. If so, please split PR into multiple PRs for different root folder.
+  * [ ] Set the right reviewers
 
 ## Reference Documentation
 
@@ -44,6 +47,3 @@ You can refer the following documentations for provision resource.
   * @yriveiro
   * @sudeepgupta90
   * @nuno-silva18
-
-
-/label ~databricks
