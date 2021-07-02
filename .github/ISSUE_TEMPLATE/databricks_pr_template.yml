@@ -37,15 +37,10 @@ body:
           required: false
         - label: Personal Access Token
           required: false
-  - type: textarea
+  - type: markdown
     attributes:
-      label: Reference Documentation
-      description: You can refer the following documentations for provision resource.
-      placeholder: |
+      value: |
         * [Databricks Onboarding Documentation for Provisioning Resources](https://farfetch.atlassian.net/wiki/spaces/DataStrategy/pages/3351183454/Onboarding+Guide+to+Databricks+Workspace)
         * [Databricks Personal Access Token](https://farfetch.atlassian.net/wiki/spaces/DataStrategy/pages/1626249646/Creating+Databricks+token+in+terraform)
         * [Getting Access to Databricks Workspace for Group & User](https://farfetch.atlassian.net/wiki/spaces/DataStrategy/pages/3223131425/Getting+Access+to+Databricks+Workspace)
         * [Create Service Principal](https://farfetch.atlassian.net/wiki/spaces/DataStrategy/pages/1620704192/Create+Service+Principal+Terraform)
-      render: markdown
-    validations:
-      required: false
