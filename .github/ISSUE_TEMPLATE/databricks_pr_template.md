@@ -4,6 +4,7 @@ about: Databricks Resource Issue Template
 title: '[Databricks] <title>'
 labels: Databricks
 assignees: heeroyuy925
+linked_pull_requests: #5
 ---
 
 <!-- Please notice that this Template is only to be used when changes are done to Databricks resources.
