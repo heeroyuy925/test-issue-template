@@ -54,7 +54,7 @@ body:
         - label: Secret Scope & Secret
           required: false
   - type: checkboxes
-    id: jobs
+    id: job
     attributes:
       description: Job
       options:
