@@ -3,6 +3,7 @@ description: Databricks Template
 title: "[Databricks]: "
 labels: [Databricks]
 assignees:
+body:
 - type: textarea
   attributes:
     label: What does this Pull Request do?
