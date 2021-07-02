@@ -1,3 +1,11 @@
+---
+name: Databricks Resource
+about: Databricks Resource Issue Template
+title: '[Databricks] <title>'
+labels: Databricks
+assignees: heeroyuy925
+---
+
 <!-- Please notice that this Template is only to be used when changes are done to Databricks resources.
 -->
 
